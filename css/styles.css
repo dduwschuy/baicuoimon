@@ -153,3 +153,6 @@ input.btn[type="submit"]:hover {
     background: #A22323;
 	color: white;
 }
+html{
+	scroll-behavior: smooth
+}
