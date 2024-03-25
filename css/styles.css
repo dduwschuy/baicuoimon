@@ -204,3 +204,38 @@ left: 0;
 	justify-content: center;
 	padding: 50px 0;
 }
+
+.model{
+	position: fixed;
+	background:rgba(0, 0, 0, 0.6);
+	top: 0;
+	height: 100%;
+	width: 100%;
+	align-items: center;
+	
+}
+.model-inner{
+	width: 500px;
+	position: relative;
+	top: 35%;
+	margin: auto;
+	background: white;
+	border-radius: 20px 20px 15px 15px;
+}
+.model-header{
+	padding: 15px;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+	background: #A23223;
+	border-radius: 15px 15px 0 0;
+}
+
+.model-body{
+	padding: 10px 0;
+	justify-content: space-around;
+	
+}
+.hide{
+	display: none;
+}

@@ -109,13 +109,13 @@ width: 35%;
   font-weight: 600;
   display: flex;
   justify-content: center;
+	padding: 40px;
 }
 .notification .icon {
   font-size: 28px;
   color: #7dc855;
   line-height: 28px;
   margin-right: 10px;
-	padding: 40px;
 }
 
 .actions {

@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>PAYMENT</title>
+<title>thanhtoan</title>
 <link rel="stylesheet" href="css/styles.css">
 <link rel="stylesheet" href="css/styles2.css">
 <link rel="stylesheet" href="css/thu-vien-css.css">
@@ -35,7 +35,7 @@
   </div>
 </div>
 
-<div class="notification"> Complete Your Purchase </div>
+<div class="notification" id="thanhtoan"> Complete Your Purchase </div>
 <div class="details shadow">
   <div class="details_item">
     <div class="item_image"> <img class="chair img-100" src="images/Chair1.png" alt=""> </div>
@@ -155,7 +155,13 @@
   </div>
 </div>
 <div class="container">
-  <div class="actions"> <a href="#" class="btn2 action__submit">Place your Order <i class="icon icon-arrow-right-circle"></i> </a> <a href="index.html" class="backBtn">Go Back to Shop</a> </div>
+  <div class="actions place"> 
+<!--	  <a href="" class="btn2 action__submit">Place your Order <i class="icon icon-arrow-right-circle"></i> </a> -->
+	  <button class="open-model-btn btn2 action__submit">Place your Order</button>
+	  
+	  <a href="index.html" class="backBtn">Go Back to Shop</a> 
+	  
+	</div>
 
 </div>
 <footer>
@@ -182,9 +188,15 @@
     <i class="fas fa-chevron-up"></i>
   </a>
 
+</div>
+	
 <script src="js/main.js"></script> 
 <script src="js/jquery-3.6.0.min.js"></script> 
 <script src="js/owl.carousel.js"></script> 
 <script src="js/control.js"></script>
-</body>
+<div class="model hide">
+	<div class="model-inner"><div class="model-header d-flex"><p>Order Status</p><i class="fa-solid fa-xmark"></i></div>
+	<div class="model-body d-flex"><i class="fa-solid fa-circle-check fa-5x" style="color: limegreen"></i> <p style="font-size: 25px; padding: 20px 20px 20px 0">Order Success</p></div>
+	</div>
+	</body>
 </html>
