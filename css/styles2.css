@@ -140,12 +140,11 @@ width: 35%;
 }
 
 .btn2 {
-  font-family: "Josefin Sans", sans-serif;
-  border-radius: 8px;
+   border-radius: 8px;
   border: 0;
   letter-spacing: 1px;
   color: #fff;
-  background: #F87503;
+  background: #F87503 !important;
   padding: 20px 60px;
   white-space: nowrap;
   font-size: 16px;
@@ -159,7 +158,7 @@ width: 35%;
   font-size: 20px;
 }
 .btn2:hover {
-  background: #a23223;
+  background: #a23223 !important;
 }
 .btn2.action__back {
   background: transparent;

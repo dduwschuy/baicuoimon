@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
 *{ box-sizing: border-box}
 body{
-  font-family: 'Signika', sans-serif;font-size: 16px;color: #666666;margin: 0;  
+  font-family: 'Signika', sans-serif!important;font-size: 16px;color: #666666;margin: 0;  
 }
 .container{ width: 1140px; margin: auto}
 .img-100{ width: 100%; height: auto}
