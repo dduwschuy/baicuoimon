@@ -1,7 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
-
-
+dl, ol, ul{
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
 .details {
   max-width: 800px;
   min-height: 300px;
@@ -140,18 +142,18 @@ width: 35%;
 }
 
 .btn2 {
-   border-radius: 8px;
-  border: 0;
-  letter-spacing: 1px;
-  color: #fff;
+   border-radius: 8px !important;
+  border: 0 !important;
+  letter-spacing: 1px !important;
+  color: #fff !important;
   background: #F87503 !important;
-  padding: 20px 60px;
-  white-space: nowrap;
-  font-size: 16px;
-  line-height: 1;
-  text-transform: uppercase;
-  transition: all 0.15s ease;
-  text-decoration: none;
+  padding: 20px 60px !important;
+  white-space: nowrap !important; 
+  font-size: 16px !important;
+  line-height: 1 !important;
+  text-transform: uppercase !important;
+  transition: all 0.15s ease !important;
+  text-decoration: none !important;
 }
 .btn2 .icon {
   margin-left: 10px;
@@ -269,12 +271,12 @@ width: 35%;
   opacity: 0;
 }
 .backBtn {
-  margin-top: 20px;
+  margin-top: 20px !important;
 }
 .backBtn {
-  display: flex;
+  display: flex !important;
 }
 .secure span,
 .backBtn span {
-  margin-left: 5px;
+  margin-left: 5px !important;
 }

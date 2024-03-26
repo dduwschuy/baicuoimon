@@ -1,14 +1,14 @@
 @charset "utf-8";
 /* CSS Document */
 @import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
-*{ box-sizing: border-box}
+*{ box-sizing: border-box !important}
 body{
-  font-family: 'Signika', sans-serif!important;font-size: 16px;color: #666666;margin: 0;  
+  font-family: 'Signika', sans-serif!important;font-size: 16px !important;color: #666666 !important;margin: 0 !important;  
 }
-.container{ width: 1140px; margin: auto}
-.img-100{ width: 100%; height: auto}
-.img-circle{ border-radius: 50%}
-.row{ display: flex; flex-wrap: wrap}
+.container{ width: 1140px !important; margin: auto !important}
+.img-100{ width: 100% !important; height: auto !important}
+.img-circle{ border-radius: 50% !important}
+.row{ display: flex !important; flex-wrap: wrap !important}
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -22,25 +22,25 @@ body{
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 [class*="col-"] {
-  padding: 15px;
+  padding: 15px !important;
   /*border: 1px solid red;*/
 }
 .py-50{ padding: 50px}
 .p-0{ padding: 0} .p-3{padding: 15px}
-.mt-0{ margin-top: 0}.my-10{margin: 10px 0} .mb-10{margin-bottom: 10px}
+.mt-0{ margin-top: 0}.my-10{margin: 10px 0 !important} .mb-10{margin-bottom: 10px !important}
 .my-30{ margin-top: 30px; margin-bottom: 30px}
-.mx-auto { margin-left: auto; margin-right: auto}
-.text-right{ text-align: right}
-.text-center { text-align: center}
-.d-flex{ display: flex}
-.d-block{ display:block}
-.d-none{ display: none}
-.justify-center{ justify-content: center}
-.justify-between{ justify-content: space-between}
-.justify-around{ justify-content: space-around}
-.flex-row-reverse{flex-direction: row-reverse}
-.align-item-center{align-items: center}
-.text-white{ color: #fff}
+.mx-auto { margin-left: auto !important; margin-right: auto !important}
+.text-right{ text-align: right !important} 
+.text-center { text-align: center !important}
+.d-flex{ display: flex !important}
+.d-block{ display:block !important}
+.d-none{ display: none !important}
+.justify-center{ justify-content: center !important}
+.justify-between{ justify-content: space-between !important}
+.justify-around{ justify-content: space-around !important}
+.flex-row-reverse{flex-direction: row-reverse !important}
+.align-item-center{align-items: center !important}
+.text-white{ color: #fff !important}
 .btn-fill-primary
 {
     background-color:#F87503;
